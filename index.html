@@ -14,18 +14,29 @@
 </head>
 
 <body>
+    <div id="error" class="hide">Este dispositivo no soporta Realidad Aumentada</div>
+
+    <model-viewer
+        src="https://raw.githubusercontent.com/beebitsolutions/arvision-estanterias-record-arweb/dev/assets/3d/FlightHelmet/glTF/FlightHelmet.gltf"
+        alt="A 3D Model of a Flying helmet" auto-rotate camera-controls ar ar-modes="webxr scene-viewer quick-look">
+    </model-viewer>
+    <model-viewer
+        src="https://raw.githubusercontent.com/beebitsolutions/arvision-estanterias-record-arweb/dev/assets/3d/Convencional_AR_2.gltf"
+        alt="Modelo 3D de estantería convencional" auto-rotate camera-controls ar
+        ar-modes="webxr scene-viewer quick-look">
+    </model-viewer>
+    <model-viewer
+        src="https://raw.githubusercontent.com/beebitsolutions/arvision-estanterias-record-arweb/dev/assets/3d/cantilever/Cantilever.gltf"
+        alt="Modelo 3D de cantilever" auto-rotate camera-controls ar ar-modes="webxr scene-viewer quick-look">
+    </model-viewer>
+    <model-viewer
+        src="https://raw.githubusercontent.com/beebitsolutions/arvision-estanterias-record-arweb/dev/assets/3d/cantilever/Cantilever.gltf"
+        ios-src="https://raw.githubusercontent.com/beebitsolutions/arvision-estanterias-record-arweb/dev/assets/3d/cantilever/pasillos-elevados.udsz"
+        alt="Modelo 3D de cantilever" auto-rotate camera-controls ar ar-modes="webxr scene-viewer quick-look">
+    </model-viewer>
 
 
-    <a
-        href="intent://arvr.google.com/scene-viewer/1.0?file=https://raw.githubusercontent.com/beebitsolutions/arvision-estanterias-record-arweb/dev/assets/3d/cantilever/Cantilever.gltf#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;S.browser_fallback_url=https://developers.google.com/ar;end;">
-        Cantilever
-    </a>
 
-
-    <script>
-        let fileUrl = "";
-
-    </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -37,7 +48,37 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+    <script>
+        document.querySelector("#model-viewer").addEventListener('ar-status', (event) => {
+            if (event.detail.status === 'failed') {
+                const error = document.querySelector("#error");
+                error.classList.remove('hide');
+                error.addEventListener('transitionend', (event) => {
+                    error.classList.add('hide');
+                });
+            }
+        });
+    </script>
+    <style>
+        #error {
+            background-color: #ffffffdd;
+            border-radius: 16px;
+            padding: 16px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate3d(-50%, -50%, 0);
+            transition: opacity 0.3s;
+        }
 
+        #error.hide {
+            opacity: 0;
+            visibility: hidden;
+            transition: visibility 2s, opacity 1s 1s;
+        }
+    </style>
 </body>
 
 </html>
