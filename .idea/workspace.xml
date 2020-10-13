@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c1c889f2-3f32-4426-8e4e-db93791ff00d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/arvision-estanterias-record-arweb.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cantilevers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entreplantas-convencional.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/3d/Convencional_4K/Cajas_DefaultMaterial_BaseColor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/3d/Convencional_4K/Convencional_3.usdz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/3d/Convencional_4K/Convencional_4_K.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/3d/Convencional_4K/Convencional_4_K.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/3d/Convencional_4K/Convencional_BaseColor_Alpha2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/3d/Convencional_4K/Normales_Conjunto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/3d/Convencional_4K/Reja_Anticaida_3K.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/3d/Convencional_4K/palette_Diffuse_256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/3d/cantilever/BaseColor_Alpha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/3d/cantilever/Cantilever.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/3d/cantilever/Cantilever.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/3d/cantilever/Cantilever_2.usdz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/3d/cantilever/Cantilever_Conectores.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/3d/cantilever/Cantilever_GLTF.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/3d/cantilever/CargasCantilever_DefaultMaterial_BaseColor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/3d/cantilever/CargasCantilever_DefaultMaterial_BaseColor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/3d/cantilever/file20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/3d/cantilever/file3file2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ipcMiEFctYtX1UCdT8AbndOVka" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1c889f2-3f32-4426-8e4e-db93791ff00d" name="Default Changelist" comment="" />
+      <created>1602607927762</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602607927762</updated>
+      <workItem from="1602607928841" duration="2212000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

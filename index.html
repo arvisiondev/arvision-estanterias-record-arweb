@@ -6,53 +6,46 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles.css">
 
     <title>Pruebas AR Web Estanterías Record</title>
 </head>
 
-<body>
-    <div id="error" class="hide">Este dispositivo no soporta Realidad Aumentada</div>
+<body class="text-center">
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <header class="masthead mb-auto">
+        <div class="inner">
+            <h3 class="masthead-brand">Estanterías Record</h3>
+            <nav class="nav nav-masthead justify-content-center">
+                <a class="nav-link active" href="/">Home</a>
+                <a class="nav-link" href="/cantilevers.html">Cantilever</a>
+                <a class="nav-link" href="/entreplantas-convencional.html">Entreplanta y convencional</a>
+            </nav>
+        </div>
+    </header>
 
-    <h2>Modelo con ejemplo de Hiperrealismo (sólo Android)</h2>
-    <model-viewer
-        src="https://raw.githubusercontent.com/beebitsolutions/arvision-estanterias-record-arweb/dev/assets/3d/FlightHelmet/glTF/FlightHelmet.gltf"
-        alt="A 3D Model of a Flying helmet" auto-rotate camera-controls ar ar-modes="webxr scene-viewer quick-look">
-    </model-viewer>
-    <h2>Convencional 4K</h2>
-    <model-viewer
-        src="https://raw.githubusercontent.com/beebitsolutions/arvision-estanterias-record-arweb/dev/assets/3d/Convencional_4K/Convencional_4_K.gltf"
-        ios-src="https://github.com/beebitsolutions/arvision-estanterias-record-arweb/blob/dev/assets/3d/Convencional_4K/Convencional_3.usdz?raw=true"
-        alt="Modelo 3D de estantería convencional" auto-rotate camera-controls ar
-        ar-modes="webxr scene-viewer quick-look">
-    </model-viewer>
-    <h2>Cantilever 4K</h2>
-    <model-viewer
-        src="https://raw.githubusercontent.com/beebitsolutions/arvision-estanterias-record-arweb/dev/assets/3d/cantilever/Cantilever.gltf"
-        ios-src="https://github.com/beebitsolutions/arvision-estanterias-record-arweb/blob/dev/assets/3d/cantilever/Cantilever_2.usdz?raw=true"
-        alt="Modelo 3D de cantilever" auto-rotate camera-controls ar ar-modes="webxr scene-viewer quick-look">
-    </model-viewer>
-    <h2>Modelo de ejemplo con animación (sólo iOS)</h2>
-    <model-viewer
-        ios-src="https://github.com/beebitsolutions/arvision-estanterias-record-arweb/blob/dev/assets/3d/toy_robot_vintage.usdz?raw=true"
-        alt="Modelo 3D de cantilever" auto-rotate camera-controls ar ar-modes="webxr scene-viewer quick-look">
-    </model-viewer>
+    <main role="main" class="inner cover">
+        <h1 class="cover-heading">Modelos 3D Web.</h1>
+        <p class="lead">Esta tecnología utiliza <a href="https://developers.google.com/ar/discover/supported-devices">AR Core</a> y <a href="https://www.cnet.com/how-to/these-iphones-and-ipads-work-with-arkit/">AR Kit</a>. <br>Son necesarios para funcionar.</p>
+        <p class="lead">
+            <a href="/cantilevers.html" class="btn btn-lg btn-secondary">AR Cantilevers</a>
+            <a href="/entreplantas-convencional.html" class="btn btn-lg btn-secondary">AR Entreplantas y convencional</a>
+        </p>
+    </main>
+
+    <footer class="mastfoot mt-auto">
+        <div class="inner">
+            <p>Con la tecnología de Realidad Aumentada de AR Vision</p>
+        </div>
+    </footer>
+</div>
 
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.3/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
     <style>
