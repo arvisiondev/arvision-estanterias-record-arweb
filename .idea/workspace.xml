@@ -20,22 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1c889f2-3f32-4426-8e4e-db93791ff00d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/3d/convencional/1.0/Cajas_DefaultMaterial_BaseColor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/3d/convencional/1.0/Estanteria_Convencional_Pernos.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/3d/convencional/1.0/Estanteria_Convencional_Pernos.gltf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/3d/convencional/1.0/Largueros_Estanteria_Estanteria_Mat_Normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/3d/convencional/1.0/Malla_Anti_baseColor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/3d/convencional/1.0/Mat_Estante_baseColor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/3d/convencional/1.0/palette_Diffuse_256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/3d/hdri/warehouse.hdr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/3d/hdri/warehouse.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/3d/cantilever/c2/Cantilever_2.bin" beforeDir="false" afterPath="$PROJECT_DIR$/assets/3d/cantilever/1.0/Cantilever_2.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/3d/cantilever/c2/Cantilever_2.gltf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/3d/cantilever/1.0/Cantilever_2.gltf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/3d/cantilever/c2/Cantilever_2.usdz" beforeDir="false" afterPath="$PROJECT_DIR$/assets/3d/cantilever/1.0/Cantilever_USDZ_Final.usdz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/3d/cantilever/c2/Cantilever_Conectores.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/3d/cantilever/1.0/Cantilever_Conectores.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/3d/cantilever/c2/CargasCantilever_DefaultMaterial_BaseColor.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/3d/cantilever/1.0/CargasCantilever_DefaultMaterial_BaseColor.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/3d/cantilever/c2/file20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/3d/cantilever/1.0/file20.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/3d/convencional/convencional.usdz" beforeDir="false" afterPath="$PROJECT_DIR$/assets/3d/convencional/1.0/convencional.usdz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cantilevers.html" beforeDir="false" afterPath="$PROJECT_DIR$/cantilevers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/entreplantas-convencional.html" beforeDir="false" afterPath="$PROJECT_DIR$/entreplantas-convencional.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,11 +46,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/3d/cantilever/1.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/3d/hdri" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Valentín Pedrosa\Documents\Beebit\arvision-estanterias-record-arweb\assets\3d\hdri" />
       <recent name="C:\Users\Valentín Pedrosa\Documents\Beebit\arvision-estanterias-record-arweb\assets\3d\cantilever\1.0" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -81,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602607927762</updated>
       <workItem from="1602607928841" duration="5080000" />
-      <workItem from="1602686366623" duration="4994000" />
+      <workItem from="1602686366623" duration="5977000" />
     </task>
     <servers />
   </component>
